@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/graylight"
+    tools:context=".MainActivity">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="280dp"
+          android:background="@drawable/gradientbackground"
+          android:orientation="vertical">
+
+          <de.hdodenhof.circleimageview.CircleImageView
+              android:id="@+id/imageView"
+              android:layout_width="90dp"
+              android:layout_height="90dp"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="50dp"
+              android:scaleType="centerCrop"
+              android:src="@drawable/thor">
+
+          </de.hdodenhof.circleimageview.CircleImageView>
+
+          <TextView
+              android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="10dp"
+              android:text="God of Thunder"
+              android:textSize="21sp"
+              android:textStyle="bold" />
+
+      </LinearLayout>
+      <androidx.cardview.widget.CardView
+          android:layout_width="300dp"
+          android:layout_height="100dp"
+          android:layout_centerHorizontal="true"
+
+          android:layout_marginTop="220dp">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:weightSum="3"
+              >
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:foreground="?android:attr/selectableItemBackground"
+                  android:clickable="true"
+                  >
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Photos"
+                      android:textSize="20sp"
+                      />
+                  <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="1.1K"
+                  android:textSize="20sp"
+                      android:textStyle="bold"
+                      android:paddingTop="10dp"
+                      android:textColor="@color/startblue"
+
+
+                  />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:foreground="?android:attr/selectableItemBackground"
+                  android:clickable="true"
+                  >
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Followers"
+                      android:textSize="20sp"
+                      />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="50M"
+                      android:textSize="20sp"
+                      android:textStyle="bold"
+                      android:paddingTop="10dp"
+                      android:textColor="@color/startblue"
+
+
+                      />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:foreground="?android:attr/selectableItemBackground"
+                  android:clickable="true"
+                  >
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Following"
+                      android:textSize="20sp"
+                      />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="1K"
+                      android:textSize="20sp"
+                      android:textStyle="bold"
+                      android:paddingTop="10dp"
+                      android:textColor="@color/startblue"
+
+
+                      />
+
+              </LinearLayout>
+
+
+
+          </LinearLayout>
+      </androidx.cardview.widget.CardView>
+  </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                >
+                <ImageView
+
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_email"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="strongestaveng.thor@gmail.com"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            >
+            <ImageView
+
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_phone_android"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="+1-8114-456783"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            >
+            <ImageView
+
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_baseline_work_outline_24"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Americal actor"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            >
+            <ImageView
+
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_baseline_emoji_events_24"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Oscar winner, Fitness"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttongradient"
+        android:text="Follow me" />
+</LinearLayout>
+</LinearLayout>
