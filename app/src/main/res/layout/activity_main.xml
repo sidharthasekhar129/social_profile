@@ -150,7 +150,7 @@
     >
     <LinearLayout
         android:layout_width="300dp"
-        android:layout_height="230dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="15dp"
         android:layout_gravity="center">
@@ -220,7 +220,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="10dp"
-                android:text="Americal actor"
+                android:text="American actor"
                 android:textStyle="bold"/>
 
         </LinearLayout>
@@ -252,7 +252,8 @@
 
     <Button
         android:layout_width="250dp"
-        android:layout_height="40dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/buttongradient"
         android:text="Follow me" />
